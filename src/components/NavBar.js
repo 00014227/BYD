@@ -11,7 +11,7 @@ export default function NavBar({header}) {
                 <p className='text-white text-2xl uppercase'>о компании</p>
                 <p className='text-white text-2xl uppercase'>модели</p>
                 <p className='text-white text-2xl uppercase'>зарядка</p>
-                <p className='text-white text-2xl uppercase'>магазин</p>
+                <p className='text-white text-2xl uppercase'>аксессуары</p>
                 <p className='text-white text-2xl uppercase'>сервис</p>
             </div>
             <div className='flex my-auto space-x-5'>

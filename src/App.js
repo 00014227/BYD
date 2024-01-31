@@ -35,7 +35,7 @@ function App() {
           </div>
           <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
-              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-white'>Заказать</button>
+              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
             </div>
           </div>
@@ -59,7 +59,7 @@ function App() {
 
           <div className='absolute bottom-0 ml-[25vw] pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
-              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-white'>Заказать</button>
+              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
             </div>
           </div>
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
-              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-white'>Заказать</button>
+              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
             </div>
           </div>
@@ -84,7 +84,7 @@ function App() {
           </div>
           <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
-              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-white'>Заказать</button>
+              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
             </div>
           </div>
@@ -94,11 +94,11 @@ function App() {
 
         <section className='dmi relative byd4 w-screen h-screen flex justify-center items-center scroll-snap-align-start'>
           <div className='absolute inset-0 flex items-start mt-36 justify-center '>
-            <h1 className=' uppercase text-6xl text-white'>Зарядка</h1>
+            <h1 className=' uppercase text-6xl text-white'>станции зарядки</h1>
           </div>
           <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
-              <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-white'>Заказать</button>
+              <button className='w-[20vw] rounded-lg bg-red-600 text-[30px] text-gray-400 '>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
             </div>
           </div>
