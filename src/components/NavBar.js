@@ -1,11 +1,13 @@
 import React from 'react'
+import logo from '../assets/logo.svg'
 
 export default function NavBar({header}) {
     return (
       <div className='fixed w-full z-50'>    
         <div className='flex px-5  justify-between '>
             <div>
-                <span className='text-white text-6xl font-bold'>BYD</span>
+                {/* <span className='text-white text-6xl font-bold'>BYD</span> */}
+                <img src={logo} className=" w-[120px] h-[120px]"/>
             </div>
             <div className=' flex my-auto space-x-6'>
                 <p className='text-white text-2xl uppercase'>о компании</p>

@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import bydVideo from './assets/BYDHAN.mp4'
+import song from './assets/Song.mp4'
+import chazor from './assets/chazor.mp4'
 import { useEffect, useRef, useState } from 'react';
 import { useScroll, animated } from '@react-spring/web';
 
@@ -29,11 +31,24 @@ function App() {
       <NavBar header={headingTexts[headerIndex]} />
       {/* <h1 className='fixed'>{headingTexts[headerIndex]}</h1> */}
       <div>
-        <section className='dmi byd1 w-screen h-screen  flex flex-col justify-center items-center '>
-          <div className='absolute inset-0 flex items-start mt-36 justify-center '>
-            <h1 className=' uppercase text-6xl text-white'>SONG PLUS DM-i</h1>
+      <section className='dmi w-screen h-screen relative '>
+          <div>
+            <video
+              autoPlay
+              loop
+              muted
+              className="absolute left-0 top-0 w-full h-screen -z-[40] object-cover"
+            >
+              <source src={song} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
+          <div className='absolute inset-0 flex items-start mt-36 justify-center'>
+            <h1 style={{ opacity: scrollYProgress }} className='uppercase text-6xl text-white'>SONG PLUS DM-I</h1>
+            {/* <h1 >BYD HAN</h1> */}
+          </div>
+
+          <div className='absolute bottom-0 ml-[25vw] pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
               <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
@@ -53,7 +68,7 @@ function App() {
             </video>
           </div>
           <div className='absolute inset-0 flex items-start mt-36 justify-center'>
-            <animated.h1 style={{ opacity: scrollYProgress }} className='uppercase text-6xl text-white'>BYD HAN</animated.h1>
+            <h1 style={{ opacity: scrollYProgress }} className='uppercase text-6xl text-white'>BYD HAN</h1>
             {/* <h1 >BYD HAN</h1> */}
           </div>
 
@@ -78,11 +93,24 @@ function App() {
           </div>
         </section>
 
-        <section className='dmi relative byd3 w-screen h-screen flex justify-center items-center scroll-snap-align-start'>
-          <div className='absolute inset-0 flex items-start mt-36 justify-center '>
-            <h1 className=' uppercase text-6xl text-white'>BYD CHAZOR</h1>
+        <section className='dmi w-screen h-screen relative '>
+          <div>
+            <video
+              autoPlay
+              loop
+              muted
+              className="absolute left-0 top-0 w-full h-screen -z-[40] object-cover"
+            >
+              <source src={chazor} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div className='absolute bottom-0  pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
+          <div className='absolute inset-0 flex items-start mt-36 justify-center'>
+            <h1 style={{ opacity: scrollYProgress }} className='uppercase text-6xl text-white'>byd chazor</h1>
+            {/* <h1 >BYD HAN</h1> */}
+          </div>
+
+          <div className='absolute bottom-0 ml-[25vw] pb-12' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minHeight: '30vh' }}>
             <div className='flex  space-x-16'>
               <button className='w-[20vw] rounded-lg text-[30px] text-gray-400 bg-red-600'>Заказать</button>
               <button className='w-[20vw] rounded-lg text-[30px] text-white bg-gray-400'>Узнать Больше</button>
